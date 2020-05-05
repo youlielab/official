@@ -6,7 +6,6 @@
 	background-color:;
 	overflow:hidden;
 	height:230px;
-	border:0px solid blue;
 	background-image:url(images/machinami.jpg);
 	padding-left:100px;
 	background-size:cover;
@@ -17,11 +16,13 @@
 	width:510px;
 	margin:30px auto;
 	padding:10px 200px 10px 10px;
+	border:0px solid black;
 	background:rgba();
 }
 
 .youlie-logo{
 	width:20%;
+	border:0px solid black;
 	float:left;
 	cursor:pointer;
 	opacity:;
@@ -43,6 +44,7 @@
 	font-family:"impact";
 	font-size:60px;
 	text-align:center;
+	border:0px solid black;
 	width:80%;
 	float:right;
 }
@@ -61,6 +63,7 @@ span{
 .header-list ul {
 	margin:0;
 	padding:0;
+	border:0px solid red;
 	text-align:center;
 }
 
@@ -96,7 +99,7 @@ span{
 
 
 .slide-1 {
-	border:2px solid lightgray;
+	border:2px solid blue;
 	width:75%;
 	margin:20px auto;
 }
@@ -108,12 +111,13 @@ span{
 
 .mainbox {
 	overflow:hidden;
+	border:3px solid black;
 }
 
 .topics_frame {
 	width:30%;
 	float:left;
-	border:2px solid lightgray;
+	border:3px solid red;
 	margin-left:3%;
 
 }
@@ -123,23 +127,14 @@ span{
 	height:30px;
 	color:white;
 	font-size:20px;
-	border:1px solid black;
+	border:3px solid blue;
 	padding:10px;
-	margin:30px auto;
+	margin:30px;
 }
-
-.topics_banner{
-	border:1px solid black;
-	width:80%;
-	margin:0 auto;
-	padding:10px;
-	margin-bottom:30px;
-}
-
 
 .service_frame{
 	width:60%;
-	border:2px solid lightgray;
+	border:3px solid red;
 	float:right;
 	margin-right:3%;
 }
@@ -148,7 +143,7 @@ span{
 	background-color:#FA58AC;
 	color:white;
 	font-size:20px;
-	border:1px solid black;
+	border:3px solid blue;
 	padding:10px ;
 	margin:30px;
 }
@@ -157,48 +152,41 @@ span{
 	background-color:gray;
 	color:white;
 	font-size:15px;
-	border:1px solid black;
+	border:3px solid blue;
 	padding:10px ;
 	margin:30px;
 }
 
-.service_banner{
-	border:1px solid black;
-	width:92%;
-	margin:0px auto;
-	margin-bottom:15px;
-	padding-bottom:15px;
-}
-
-
 .sample1 {
-	width:100%;
+	width:92%;
 	height:200px;
-	border-bottom:1px solid black;
-	margin:0px auto;
+	border:3px solid blue;
+	margin:0px 30px;
 }
 
 .sample1:hover {
 	opacity:0.5;
+	border-radius:15px;
 }
 
-.service_banner p {
-	margin:10px 0px 20px 20px;
+p {
+	margin:10px 0px 30px 30px;
 }
 
 .skate-shelf{
-	width:100%;
-	border-bottom:1px solid black;
-	padding:auto;
+	width:80%;
+	border:3px solid black;
+	padding:10px;
+	margin:0px 30px;
 }
 
 .skate-shelf:hover {
-	opacity:0.5;
+	opacity:0.5;	
 }
 
 .skate-shelf-2{
 	width:80%;
-	border:1px solid black;
+	border:3px solid black;
 	padding:10px;
 	margin:30px 30px;
 }
@@ -213,8 +201,8 @@ span{
 .footer {
 	background-color:#FA58AC;
 	height:auto;
-	padding:10px 0;
-	margin:10px 0;
+	border:0px solid red;
+	padding:10px 0; 
 }
 
 .footer_logo {
@@ -231,11 +219,11 @@ span{
 
 .btn{
 	display:inline-block;
-	/*box-shadow:2px 2px lightgray;*/
+	box-shadow:3px 3px white;
 	width:100px;
 	color:white;
 	padding:5px;
-	border:px solid lightgray;
+	border:2px solid white;
 	border-radius:10px;
 	margin-left:20px;
 	text-align:center;
@@ -244,25 +232,16 @@ span{
 .btn:active{
 	box-shadow:none;
 	position:relative;
-	top:2px;
-	left:2px;
+	top:3px;
+	left:3px;
 }
 
-.instagram {
-	background-color:#CF2E92;
-}
-
-.insta_gazo{
-	width:20%;
-
+.instagram {	
+	background-color:#CF2E92;	
 }
 
 .facebook {
 	background-color:#3b5998;
-}
-
-.facebook_gazo{
-	width:20%;
 }
 
 .twitter {
@@ -273,7 +252,7 @@ span{
 	text-align:center;
 	border:0px solid 0px;
 	padding:0px auto;
-	margin-bottom:0px 0px 10px 0px;
+	margin-bottom:0px 0px 10px 0px; 
 	opacity:0.7;
 }
 
@@ -284,47 +263,85 @@ span{
 	padding:0px 10px;
 }
 
+.footer{
+	clear:left;
+}
 
 
 
-/*以下はおといあわせページのCSS */
+/*以下はおといサービスページのCSS -->*/
 
-.info {
+.main{
+	border:0px solid black;
+	margin-bottom:20px;
+
+}
+
+.main h1{
+	text-align:center;
 	display:block;
-	margin:0 auto;
-	width:90%;
-	height:auto;
-	border:0px solid gray;
+	margin:10px auto;
+	border:1px solid lightgray;
 }
 
-.info p{
-	margin:30px 0 10px 0;
+.services{
+	text-align:center;
+	width:100%;
 }
 
-.mail-ad{
+.company{
+	display:inline-block;
+	text-align:center;
+	border:1px solid lightgray;
+}
+
+.forcompany{
+	border-bottom:1px solid lightgray;
+}
+
+.user{
+	display:inline-block;
+	border:1px solid lightgray;
+	text-align:center;
+}
+
+.foruser{
+	border-bottom:1px solid lightgray;
+}
+
+/*
+.main h2{
+	float:left;
+	border:2px solid lightgray;
+	text-align:center;
 	display:block;
-	width:40%;
-	padding:20px;
-	font-size:25px;
+	margin:10px auto;
 }
 
-.info textarea{
-	width:40%;
-	height:100px;
-	padding:20px;
-	font-size:15px;
+.forcompany{
+	width:34%;
+	color:red;
 }
 
-.contact-submit{
+.foruser{
+	width:66%;
+}
+
+.service_forcompany{
 	display:block;
-	width:30%;
-	height:40px;
-	margin:30px 0;
-	border-radius:10px;
-	background-color:lightgray;
-	font-size:18px;
+	float:left;
+	width:34%;
+	border:1px solid black;
+	box-sizing:border-box;
 }
 
-.contact-submit:hover{
-	opacity:0.5;
+.service_user{
+	display:block;
+	float:left;
+	width:33%;
+	border:1px solid black;
+	box-sizing:border-box;
 }
+-->*/
+
+

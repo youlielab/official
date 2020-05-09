@@ -12,6 +12,10 @@
 	background-size:cover;
 }
 
+body{
+	font-family: Hiragino Kaku Gothic ProN;
+}
+
 .yokonarabi{
 	height:100px;
 	width:510px;
@@ -101,7 +105,7 @@ span{
 	margin:20px auto;
 }
 
-.slide-1:hover {
+.bx-viewport:hover {
 	opacity:0.5;
 
 }
@@ -283,6 +287,12 @@ span{
 	margin:0px 0px 10px ;
 	padding:0px 10px;
 }
+
+.footer_list ol :nth-child(5){
+	border-right:2px solid black;
+}
+/* nth-childの親はliではなくてolだった*/
+
 
 
 

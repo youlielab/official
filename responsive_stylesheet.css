@@ -1,0 +1,132 @@
+  @media(max-width:900px){
+
+    img {
+    max-width:100%;
+    height:auto;
+    }
+
+    *{
+    box-sizing:border-box;
+    }
+
+    .header {
+    width:100%;
+    height:70px;
+    margin-top:30px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    }
+
+
+    .yokonarabi{
+    width:100%;
+    padding:10px 10px 10px 10px;
+    }
+
+
+    .header-logo{
+    font-size:;
+    width:;
+    margin-left:;
+    }
+
+    .clear {
+    clear:left;
+    }
+
+    .header-list {
+        margin:0px;
+    }
+
+    .header-list li {
+    border-color:lightgray;
+    }
+
+
+    .header-list ul a li {
+    width:50%;
+    }
+
+    /*aの後ろにスペースを入れない*/
+    .header-list ul a:first-child li {
+    width:100%;
+    }
+
+
+
+
+
+    
+
+
+
+
+    .slide-1 {
+    	border:2px solid lightgray;
+    	width:100%;
+    	margin:20px auto;
+    }
+
+    .topics_frame {
+    	width:100%;
+    	/*float:left;*/
+    	border:2px solid lightgray;
+    	margin-left:0%;
+        margin-bottom:30px;
+     }
+
+    .topics_banner{
+    float:;
+    border:1px solid black;
+    width:90s%;
+    height:auto;
+    margin:0 auto;
+    padding:10px;
+    margin-bottom:20px;
+    }
+
+    .skate-shelf{
+    width:;
+    padding:auto;
+    }
+
+    .service_frame{
+    width:100%;
+    margin-right:0%;
+    
+    }
+
+
+
+    .footer_logo {
+        text-align:center;
+    }
+
+    .footer_list {
+        height:100px;
+    }
+
+    .footer_list ol {
+        padding:0;
+        opacity:1;
+    }
+
+    .footer_list ol a li {
+        display:inline-block;
+        background-color:white;
+        width:50%;
+        margin:0;
+        padding:5px;
+        float:left;
+        border:2px solid #FA58AC;
+    }
+        
+    
+    
+    .footer_list ol a:first-child li{
+        width:100%;
+    }
+
+
+
+}

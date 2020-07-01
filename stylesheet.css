@@ -3,13 +3,14 @@
 }
 
 .header{
-	height:230px;
+	height:auto;
 	width:100%;
 	border:1px solid blu;
 	background-image:url(images/machinami.jpg);
 	background-size:cover;
 	position:;
 	text-align:center;
+	margin:4% 0;
 }
 
 body{
@@ -185,7 +186,7 @@ span{
 }
 
 .service_banner p {
-	margin:10px 0px 20px 20px;
+	margin:10px;
 }
 
 .skate-shelf{
@@ -224,7 +225,7 @@ span{
 	font-family:impact;
 	letter-spacing:2px;
 	opacity:;
-	margin:20px 20px 0px 20px;
+	margin:10px 20px 0px 20px;
 	border:0px solid black;
 	text-align:left;
 }

@@ -1,7 +1,14 @@
-    /*@mediamax-si{}*/
+/*
+@media(max-width:670px){
+
+以下サービスページ用css
+    .services {
+    flex-direction:column;
+*/
 
 
-  @media(max-width:1100px){
+
+@media(max-width:1100px){
 
     img {
     max-width:100%;
@@ -16,8 +23,11 @@
     .header {
     width:100%;
     height:auto;
-    background-size:;
     background-repeat:no-repeat;
+    }
+
+    .breadcrumb {
+    display:none;
     }
 
 
@@ -27,18 +37,13 @@
     }
 
 
-    .header-logo{
-    font-size:;
-    width:;
-    margin-left:;
-    }
 
     .clear {
     clear:left;
     }
 
     .header-list {
-        margin:0px;
+    margin:0px;
     }
 
     .header-list li {
@@ -54,15 +59,6 @@
     .header-list ul a:first-child li {
     width:100%;
     }
-
-
-
-
-
-    
-
-
-
 
     .slide-1 {
     	border:2px solid lightgray;
@@ -123,13 +119,27 @@
         float:left;
         border:2px solid #FA58AC;
     }
-        
-    
     
     .footer_list ol a:first-child li{
         width:100%;
     }
 
+
+/*以下サービスページ用css*/
+    .services {
+        flex-direction:column;
+    }
+
+    .services li {
+    }
+/*ここまで*/
+
+}
+
+
+/*ここまで*/
+
+    
 
 
 }

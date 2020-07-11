@@ -295,7 +295,7 @@ widthを使わないで画像サイズを揃えるには、画像のサイズを
 	font-size:20px;
 }
 
-.foruser {
+.foruser,.forcompany {
 	font-size:20px;
 }
 
@@ -325,7 +325,6 @@ widthを使わないで画像サイズを揃えるには、画像のサイズを
 
 .services2 li {
 	flex:auto;
-	width:20%;
 	border:1px solid lightgray;
 	margin:2%;
 	/*background-color:black;*/

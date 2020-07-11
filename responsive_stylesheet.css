@@ -126,7 +126,7 @@
 
 
 /*以下サービスページ用css*/
-    .services {
+    .services,.services2 {
         flex-direction:column;
     }
 
@@ -134,11 +134,27 @@
     }
 /*ここまで*/
 
-}
 
 
-/*ここまで*/
+/*以下newsページ用css*/
+    
+    .company_list {
+        display:none;
+        /*企業情報ページとここは共有*/
+    }
 
+    .company_threebox {
+        width:100%;
+    }
+
+    .gallery {
+        flex-direction:column;
+    }
+
+    .gallery ul li{
+    width:auto;
+    float:none;
+    }
     
 
 

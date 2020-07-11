@@ -3,28 +3,24 @@
 }
 
 .header{
-	background-color:;
-	overflow:hidden;
-	height:230px;
-	border:0px solid blue;
+	height:auto;
+	width:100%;
+	border:1px solid blu;
 	background-image:url(images/machinami.jpg);
-	padding-left:100px;
 	background-size:cover;
+	text-align:center;
+	margin:4% 0;
 }
 
-.yokonarabi{
-	height:100px;
-	width:510px;
-	margin:30px auto;
-	padding:10px 200px 10px 10px;
-	background:rgba();
+body{
+	font-family: Hiragino Kaku Gothic ProN;
 }
+
 
 .youlie-logo{
-	width:20%;
-	float:left;
+	width:15%;
+	margin-left:;
 	cursor:pointer;
-	opacity:;
 }
 
 .youlie-logo:hover{
@@ -40,11 +36,12 @@
 }
 
 .header-logo{
-	font-family:"impact";
-	font-size:60px;
-	text-align:center;
-	width:80%;
-	float:right;
+	width:40%;
+	margin-top:3%;
+}
+
+.clear{
+	clear:left;
 }
 
 span{

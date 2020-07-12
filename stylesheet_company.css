@@ -153,7 +153,6 @@ table{
 
 table th{
 	width:20%;
-	padding:20px 30px;
 }
 
 table td{
@@ -164,7 +163,7 @@ table td{
 .six_years_honshitsu{
 	border:0px solid hotpink;
 	border-radius:4px;
-	padding:10px 30px;
+	/*padding:10px 30px;*/
 
 }
 

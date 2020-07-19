@@ -222,7 +222,6 @@ span{
 .btn{
 	display:inline-block;
 	/*box-shadow:2px 2px lightgray;*/
-	width:100px;
 	color:white;
 	padding:5px;
 	border:px solid lightgray;
@@ -257,6 +256,10 @@ span{
 
 .twitter {
 	background-color:#55acee;
+}
+
+.yahoo {
+	background-color:red;
 }
 
 .footer_list ol {
